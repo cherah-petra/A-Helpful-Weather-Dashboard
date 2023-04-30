@@ -1,0 +1,31 @@
+/* Global styles */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    background-image: url(../img/pexels-pixabay-531756.jpg);
+    background-position: center;
+}
+
+.navbar {
+  background: rgb(114,209,250);
+  background: linear-gradient(180deg, rgba(114,209,250,1) 0%, rgba(56,106,150,1) 59%, rgba(32,91,130,1) 100%);
+  display: flex; 
+  justify-content: center;   
+  color: white;
+  height: 150px;
+
+}
+
+main {
+  margin: 20px;
+}
+
