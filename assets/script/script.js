@@ -1,3 +1,5 @@
+
+
 function getWeather() {
     const apiKey = "55a126a1f25b56bfd7a324f409c7d7b4"; 
     const url = `https://api.openweathermap.org/data/2.5/weather?q=Toronto,CA&units=metric&appid=${apiKey}`;
@@ -22,3 +24,5 @@ function getWeather() {
   }
   
   getWeather();
+
+  
