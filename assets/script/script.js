@@ -55,6 +55,10 @@ function getWeather() {
       const dailyWind4 = data.daily[4].wind_speed;
       const dailyHumid4 = data.daily[4].humidity;
 
+      const dailyTemp5 = data.daily[5].temp.day;
+      const dailyWind5 = data.daily[5].wind_speed;
+      const dailyHumid5 = data.daily[5].humidity;
+
       document.getElementById("temperature").textContent = temperature + " °C";
       document.getElementById("wind").textContent = wind + " km/h";
       document.getElementById("humidity").textContent = humidity + " %";
@@ -89,6 +93,8 @@ function getWeather() {
       $('#icon-day4').attr('src', iconDay4);
       const iconDay5 = "http://openweathermap.org/img/wn/" + data.daily[4].weather[0].icon + ".png";
       $('#icon-day5').attr('src', iconDay5);
+      const iconDay6 = "http://openweathermap.org/img/wn/" + data.daily[5].weather[0].icon + ".png";
+      $('#icon-day6').attr('src', iconDay6);
     });
 }
 
