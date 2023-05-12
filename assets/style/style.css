@@ -55,7 +55,8 @@ h3 {
 }
 
 .sidebar {
-  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
 }
 
 button {
