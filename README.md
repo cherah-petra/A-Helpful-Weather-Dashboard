@@ -33,8 +33,8 @@ APIs:
 
 ## License
 
-- GitHub repository URL: 
-- GitHub Page: 
+- GitHub repository URL: https://github.com/cherah-petra/A-Helpful-Weather-Dashboard
+- GitHub Page: https://cherah-petra.github.io/A-Helpful-Weather-Dashboard/
 - License: license.txt
 
 
