@@ -7,7 +7,7 @@ let lon;
 function getLatLon() {
   console.log("buttonClicked");
   const city = cityInput.value;
-  const url = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${apiKey}`;
+  const url = `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${apiKey}`;
   if (!city) {
     alert("Please enter a valid string");
     return null;
